@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    height: 73vh;
+    width: 45vh;
+    background-color: #000;
+    margin:5% auto;
+    border-radius:  20px;   
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+    height: 100px;
+     padding: 8px;
+    /* background-color: aqua;  */
+}
+.input input{
+    height: 165%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color:#fff;
+    font-size: 3rem;
+    color:#000;
+    font-weight: 800;
+    text-align: end;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+input::placeholder{
+    color: #000;
+    text-align: end;
+}
+
+.clc-value{
+    /* background-color: aqua; */
+    height: 84%;
+    width: 104%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 25px;
+}
+.btn1 .btn{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 7px;
+    box-shadow: 5px 5px 5px rgb(80, 78, 78);
+    font-weight: 800;
+    font-size: 2rem;
+}
+.btn2 .btn{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 7px;
+    box-shadow: 5px 5px 5px rgb(80, 78, 78);
+    font-weight: 800;
+    font-size: 1.9rem;
+}
+.btn3 .btn{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 7px;
+    box-shadow: 5px 5px 5px rgb(80, 78, 78);
+    font-weight: 800;
+    font-size: 2rem;
+}
+.btn4 .btn{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 7px;
+    box-shadow: 5px 5px 5px rgb(80, 78, 78);
+    font-weight: 800;
+    font-size: 2rem;
+    color: rgb(255, 102, 0);
+}
+.btn:hover{
+    transition: 0.2 ease;
+    background-color:rgb(80, 78, 78);
+}
+/* .btn5 .btn{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 7px;
+    box-shadow: 5px 5px 5px  rgb(80, 78, 78);
+    font-weight: 800;
+    font-size: 1.2rem;
+} */
